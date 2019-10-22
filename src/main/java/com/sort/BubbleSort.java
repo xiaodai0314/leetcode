@@ -32,7 +32,7 @@ public class BubbleSort {
     }
 
     /**
-     * 冒泡排序优化 1,结束最后一轮循环
+     * 冒泡排序优化 1,如果已经排序了 结束循环
      * @param array
      */
     public static void sort2(int[] array) {
@@ -54,7 +54,7 @@ public class BubbleSort {
     }
 
     /**
-     * 冒泡排序优化 2增加flag 如果未比较提前结束里层循环
+     * 冒泡排序优化 2增加flag 如果未比较提前结束里层循环,记录最后一次交换的位置
      * @param array
      */
     public static void sort3(int[] array) {
@@ -118,7 +118,7 @@ public class BubbleSort {
 
     public static void  main(String[] args) {
         int[] array = new int[] {5,8,6,3,3,3,9,2,1,7};
-        sort2(array);
+        sort1(array);
         System.out.println(Arrays.toString(array));
     }
 }

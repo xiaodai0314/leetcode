@@ -41,7 +41,7 @@ public class GreatestCommonDivisor {
     }
 
     /**
-     * 耿相减损术
+     * 更相减损术
      * 两个正整数他们的最大公约数等于他们的差值与较小值的最大公约数
      * @param a
      * @param b

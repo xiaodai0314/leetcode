@@ -1,6 +1,6 @@
 package com.leetcode.date617;
 
-import com.leetcode.first.ListNode;
+import com.util.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;

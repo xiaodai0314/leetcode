@@ -1,8 +1,6 @@
 package com.leetcode.date617;
 
-import com.leetcode.first.ListNode;
-
-import java.util.List;
+import com.util.ListNode;
 
 /**
  * 给定一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null。
@@ -51,7 +49,9 @@ public class SolutionB {
         return head;
     }
     public ListNode reverseList(ListNode head) {
-        if (head == null || head.next == null) return head;
+        if (head == null || head.next == null){
+            return head;
+        }
         ListNode p = reverseList(head.next);
         head.next.next = head;
         head.next = null;

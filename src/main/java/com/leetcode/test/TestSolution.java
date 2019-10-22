@@ -1,7 +1,6 @@
 package com.leetcode.test;
 
-import com.leetcode.first.ListNode;
-import com.leetcode.first.Solution;
+import com.util.ListNode;
 import com.leetcode.first.SolutionB;
 
 public class TestSolution {
